@@ -2,19 +2,22 @@
   "name": "code-sync",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "server:dev": "nodemon server.js",
+    "server:prod": "node server.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "codemirror": "^5.65.17",
     "express": "^4.19.2",
+    "i": "^0.3.7",
+    "npm": "^10.8.2",
     "react": "^18.3.1",
     "react-avatar": "^5.0.3",
     "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.26.0",
     "socket.io": "^4.7.5",
     "socket.io-client": "^4.7.5",
@@ -31,6 +34,7 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "nodemon": "^3.1.4",
     "vite": "^5.4.0"
   }
 }
