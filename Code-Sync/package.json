@@ -11,10 +11,13 @@
   },
   "dependencies": {
     "codemirror": "^5.65.17",
+    "express": "^4.19.2",
     "react": "^18.3.1",
     "react-avatar": "^5.0.3",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.0",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5",
     "uuid": "^10.0.0"
   },
   "devDependencies": {

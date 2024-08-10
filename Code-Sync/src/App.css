@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     color: #fff;
-    height: 100vh;
+    
 }
 
 .formWrapper {
@@ -147,13 +147,14 @@ footer a:hover {
 .leaveBtn:hover{
     background: #840e0e;
 }
-/*
+
 .CodeMirror {
-    min-height: calc(100vh - 235px);
+    min-height: calc(100vh - 20px);
     font-size: 20px;
     line-height: 1.6;
     padding-top: 20px;
-} */
+} 
+
 
 /* ******************* CodeRun component********************** */
 
