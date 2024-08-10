@@ -1,4 +1,5 @@
  .homePageWrapper {
+    background-image: url(bg.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +95,7 @@ footer a:hover {
 
 /* ******************************************************** */
 
-/* .mainWrap {
+ .mainWrap {
     display: grid;
     grid-template-columns: 230px 1fr;
 }
@@ -134,14 +135,19 @@ footer a:hover {
 }
 
 .logoImage {
-    height: 60px;
+    width: 200px;
+    margin-left: 0;  
 }
 
 .leaveBtn {
+    background: #b31515;
     width: 100%;
     margin-top: 20px;
 }
-
+.leaveBtn:hover{
+    background: #840e0e;
+}
+/*
 .CodeMirror {
     min-height: calc(100vh - 235px);
     font-size: 20px;
@@ -179,4 +185,4 @@ footer a:hover {
     cursor: pointer;
     margin-right: 10px;
 }
-
+*/
