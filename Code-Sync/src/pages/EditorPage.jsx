@@ -9,6 +9,7 @@ import toast from 'react-hot-toast';
 
 const EditorPage = () => {
   const socketRef = useRef(null);
+  const codeRef = useRef(null);
   const location = useLocation();
   const reactNavigator = useNavigate();
   const { roomId } = useParams();
@@ -90,7 +91,10 @@ const EditorPage = () => {
         </button>         
     </div>
       <div className="editorWrap">
-        <Editor/>
+        <Editor socketRef={socketRef} roomId={roomId}
+          onCodeChange={(code) => {
+            codeRef.current = code;
+          }}/>
       </div>
     </div>
   );
