@@ -30,7 +30,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
         editorRef.current.on("change", (instance, changes) => {
           const { origin } = changes;
           const code = instance.getValue();
-          // onCodeChange(code);
+          onCodeChange(code); 
           console.log(changes)
           console.log(code)
   
